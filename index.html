@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="texts">
+        <h1>Supercharged for pros.</h1>
+        <p>
+          The most powerful MacBook Pro ever is here. With the blazing-fast M1
+          Pro or M1 Max chip — the first Apple silicon designed for pros — you
+          get groundbreaking performance and amazing battery life. Add to that a
+          stunning Liquid Retina XDR display, the best camera and audio ever in
+          a Mac notebook, and all the ports you need. The first notebook of its
+          kind, this MacBook Pro is a beast.
+        </p>
+      </div>
+
+      <div class="macbook mac-white">
+        <img src="./images/mac_white.svg" alt="" />
+        <div class="price">
+          <strong>Macbook Pro</strong>
+          <p class="text">White</p>
+          <p class="cash">$1,999</p>
+        </div>
+      </div>
+
+      <div class="hidden macbook mac-gray">
+        <img src="./images/space_gray.svg" alt="" />
+        <div class="price">
+          <strong>Macbook Pro</strong>
+          <p class="text">Space Gray</p>
+          <p class="cash cash_gray">$2,599</p>
+        </div>
+      </div>
+
+      <div class="btn">
+        <button class="white-button active" onclick="handleChooseWhite()">
+          White
+        </button>
+        <button class="gray-button" onclick="handleChooseGray()">
+          Space grey
+        </button>
+      </div>
+
+      <div class="category">
+        <button class="tb gb512" onclick="a()">
+          <p>512GB SSD</p>
+        </button>
+
+        <button class="tb tb1 active" onclick="b()">
+          <p>1TB SSD</p>
+          <p>+$200</p>
+        </button>
+
+        <button class="tb tb2" onclick="c()">
+          <p>2TB SSD</p>
+          <p>+$600</p>
+        </button>
+        <button class="tb tb4" onclick="d()">
+          <p>4 TB SSD</p>
+          <p>+$1200</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
